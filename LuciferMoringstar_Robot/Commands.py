@@ -52,7 +52,7 @@ async def start(bot, message):
                                 InlineKeyboardButton("📢 𝑱𝒐𝒊𝒏 𝑼𝒑𝒅𝒂𝒕𝒆𝒔 𝑪𝒉𝒂𝒏𝒏𝒆𝒍 📢", url=invite_link.invite_link)
                             ],
                             [
-                                InlineKeyboardButton("🔄 Try Again", callback_data=f"checksub#{file_id}")
+                                InlineKeyboardButton("🔄 𝑻𝒓𝒚 𝑨𝒈𝒂𝒊𝒏", callback_data=f"checksub#{file_id}")
                             ]
                         ]
                     ),
