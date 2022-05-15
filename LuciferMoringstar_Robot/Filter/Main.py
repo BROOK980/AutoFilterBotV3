@@ -33,7 +33,7 @@ async def filter(client, message):
                 reply_markup=InlineKeyboardMarkup(
                     [
                         [
-                            InlineKeyboardButton("🌀 𝐽𝑜𝑖𝑛 𝑈𝑝𝑑𝑎𝑡𝑒𝑠 𝐶𝒉𝑎𝑛𝑛𝑒𝑙 🌀", url=invite_link.invite_link)
+                            InlineKeyboardButton("🌀 𝒄𝑰𝒏𝑬𝒎𝑨 𝒄𝑳𝒖𝑩 🌀", url=invite_link.invite_link)
                         ]
                     ]
                 ),
@@ -277,7 +277,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         elif query.data == "help":
             buttons = [
                 [
-                    InlineKeyboardButton('💌SUBSCRIB💌', url=f'{TUTORIAL}')
+                    InlineKeyboardButton('💌 𝒔𝑼𝒃𝑺𝒄𝑹𝒊𝑩 💌', url=f'{TUTORIAL}')
                 ]
                 ]
             await query.message.edit(text=f"{HELP}", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
@@ -285,7 +285,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         elif query.data == "about":
             buttons = [
                 [
-                    InlineKeyboardButton('💌SUBSCRIB💌', url=f'{TUTORIAL}')
+                    InlineKeyboardButton('💌 𝒔𝑼𝒃𝑺𝒄𝑹𝒊𝑩 💌', url=f'{TUTORIAL}')
                 ]
                 ]
             await query.message.edit(text=f"{ABOUT}", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
@@ -308,7 +308,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     f_caption = f"{files.file_name}"
                 buttons = [
                     [
-                        InlineKeyboardButton('💌SUBSCRIB💌', url=f'{TUTORIAL}')
+                        InlineKeyboardButton('💌 𝒔𝑼𝒃𝑺𝒄𝑹𝒊𝑩 💌', url=f'{TUTORIAL}')
                     ]
                     ]
                 
@@ -339,7 +339,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     f_caption = f"{title}"
                 buttons = [
                     [
-                        InlineKeyboardButton('💌SUBSCRIB💌', url=f'{TUTORIAL}')
+                        InlineKeyboardButton('💌 𝒔𝑼𝒃𝑺𝒄𝑹𝒊𝑩 💌', url=f'{TUTORIAL}')
                     ]
                     ]
                 
