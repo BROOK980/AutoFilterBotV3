@@ -49,10 +49,10 @@ async def start(bot, message):
                     reply_markup=InlineKeyboardMarkup(
                         [
                             [
-                                InlineKeyboardButton("🌀 𝐽𝑜𝑖𝑛 𝑈𝑝𝑑𝑎𝑡𝑒𝑠 𝐶𝒉𝑎𝑛𝑛𝑒𝑙 🌀", url=invite_link.invite_link)
+                                InlineKeyboardButton("🌀 𝒄𝑰𝒏𝑬𝒎𝑨 𝒄𝑳𝒖𝑩 🌀", url=invite_link.invite_link)
                             ],
                             [
-                                InlineKeyboardButton("🔄 𝑻𝒓𝒚 𝑨𝒈𝒂𝒊𝒏", callback_data=f"checksub#{file_id}")
+                                InlineKeyboardButton("🔄 𝑻𝒓𝒀 𝑨𝒈𝑨𝒊𝑵", callback_data=f"checksub#{file_id}")
                             ]
                         ]
                     ),
@@ -84,7 +84,7 @@ async def start(bot, message):
                     f_caption = f"{files.file_name}"
                 buttons = [
                     [
-                        InlineKeyboardButton('💌SUBSCRIB💌', url=f'{TUTORIAL}')
+                        InlineKeyboardButton('💌 𝒔𝑼𝒃𝑺𝒄𝑹𝒊𝑩 💌', url=f'{TUTORIAL}')
                     ]
                     ]
                 await bot.send_cached_media(
@@ -103,7 +103,7 @@ async def start(bot, message):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("🌀 𝐽𝑜𝑖𝑛 𝑈𝑝𝑑𝑎𝑡𝑒𝑠 𝐶𝒉𝑎𝑛𝑛𝑒𝑙 🌀", url=invite_link.invite_link)
+                        InlineKeyboardButton("🌀 𝒄𝑰𝒏𝑬𝒎𝑨 𝒄𝑳𝒖𝑩 🌀", url=invite_link.invite_link)
                     ]
                 ]
             )
@@ -331,7 +331,7 @@ async def bot_info(bot, message):
     buttons = [
         [
             
-            InlineKeyboardButton('💌SUBSCRIB💌', url=f'{TUTORIAL}')
+            InlineKeyboardButton('💌 𝒔𝑼𝒃𝑺𝒄𝑹𝒊𝑩 💌', url=f'{TUTORIAL}')
         ]
         ]
     await message.reply(text=f"{ABOUT}", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
