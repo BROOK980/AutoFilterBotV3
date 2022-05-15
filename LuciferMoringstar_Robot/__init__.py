@@ -28,7 +28,7 @@ Bot Owner Only
 """
 
 ABOUT = """
-➥ Name :  Sunny Wayne
+➥ Name :  𝒔𝑼𝒏𝑬𝒆𝑺𝒉 𝑫𝒆𝑬𝒛𝑼𝒛𝒁𝒂
     
 ➥ Creator : [KL CINEMA CHAKKU GROUP 🎬🎬](
 https://t.me/MM_CINEMA_CLUB_GROUP)
@@ -37,5 +37,5 @@ https://t.me/MM_CINEMA_CLUB_GROUP)
 
 ➥ Library : Pyrogram Asyncio 1.13.0
 
-➥ Tutorial : [Click Me](https://t.me/MM_CINEMA_CLUB_GROUP)
+➥ 𝐣𝐎𝐢𝐍 𝐨𝐔𝐫 𝐆𝐫𝐎𝐮𝐏 : [Click Me](https://t.me/MM_CINEMA_CLUB_GROUP)
 """
